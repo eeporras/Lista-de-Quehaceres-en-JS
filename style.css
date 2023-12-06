@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+h1{
+    margin-top: 200px;
+    color: black;
+    text-align: center;
+}
+
+form {
+    border: 1px solid;
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+
+form input[type="text"]{
+    background-color: aqua;
+    color: black;
+    border-style:none;
+    font-size: 1.5em;
+}
+
+form input[type="text"]:focus{
+    outline: none;
+}
+
+form input[type="submit"]{
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+}
+
+.list-container {
+    width: 400px;
+    margin-top: 0 auto;
+}
+
+.tarea{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    
+}
+
+i {
+    font-size: 15px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#estadis {
+    margin-top: 25px;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
